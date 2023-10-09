@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "ES2022",
+		"moduleResolution": "Node",
+		"noUncheckedIndexedAccess": true,
+		"isolatedModules": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"outDir": "dist"
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "example"]
+}

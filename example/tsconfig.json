@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "ESNext",
+		"moduleResolution": "node",
+		"strict": true,
+		"esModuleInterop": true,
+		"plugins": [
+			{
+				"name": "my-ts-plugin"
+			}
+		]
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
